@@ -1,2 +1,3 @@
-# mwmbl-xa11-config
-Mwmbl crawler config for the Hetzner XA11. Battle-tested.
+# Mwmbl XA11 Config
+
+Mwmbl crawler `docker-compose.yml` file for the Hetzner XA11. Battle-tested. Avoids "out of memory, terminating process" OS errors.
