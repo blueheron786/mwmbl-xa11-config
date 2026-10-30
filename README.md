@@ -31,3 +31,4 @@ Tested on Ubuntu 26.04. Debian may provide a more minimal OS with a bit more RAM
 - 1x1000: Stable
 - 1x2000: Stable
 - 2x10: Out of memory errors
+- 1x10k: Runtime error, can't start new thread
