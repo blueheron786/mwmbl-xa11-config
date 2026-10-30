@@ -20,4 +20,5 @@ Tested on Ubuntu 26.04. Debian may provide a more minimal OS with a bit more RAM
 - 2x200: Out of memory errors
 - 1x320: Stable
 - 1x640: stable
-- 1x1000: testing
+- 1x1000: stable
+- 1x2000: testing
