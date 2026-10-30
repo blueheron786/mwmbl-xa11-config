@@ -35,4 +35,5 @@ Tested on Ubuntu 26.04. Debian may provide a more minimal OS with a bit more RAM
 - 1x5000: Runtime error, can't start new thread
 - 1x3000: Runtime error, can't start new thread
 - 1x1000: Runs, didn't check stability
-- 1x2000: testing
+- 1x2000: Stable
+- 1x2500: ...
