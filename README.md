@@ -18,3 +18,4 @@ In the format `CRAWLER_WORKERS` x `CRAWL_THREADS`.
 - 1x30: Stable
 - 1x40: Stable
 - 1x80: Stable
+- 1x160: ...
