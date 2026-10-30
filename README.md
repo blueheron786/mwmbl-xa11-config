@@ -28,4 +28,4 @@ In the format `CRAWLER_WORKERS` x `CRAWL_THREADS`.
 - 3x10: Stable
 - 3x300: Out of memory errors
 - 3x200: Out of memory errors
-- 2x200: ...
+- 2x200: Out of memory errors
