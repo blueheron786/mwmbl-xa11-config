@@ -4,21 +4,11 @@ Mwmbl crawler `docker-compose.yml` file for the Hetzner XA11. Battle-tested. Avo
 
 ## What's an XA11?
 
-Beats me. 4GB of RAM, two virtual CPUs.
+4GB of RAM, two virtual CPUs.
 
-## Before RAM Sharing PR
+The table below is in the format `CRAWLER_WORKERS` x `CRAWL_THREADS`. Out of memory errors are system errors from the OS where it picks a thread to kill.
 
-In the format `CRAWLER_WORKERS` x `CRAWL_THREADS`.
-
-- 4x10: Out of memory errors
-- 3x10: Out of memory errors
-- 2x10: Out of memory errors
-- 1x15: Stable
-- 1x20: Stable
-- 1x30: Stable
-- 1x40: Stable
-- 1x80: Stable
-- 1x160: Stable
+Tested on Ubuntu 26.04. Debian may provide a more minimal OS with a bit more RAM.
 
 ## After RAM sharing PR
 
@@ -29,3 +19,5 @@ In the format `CRAWLER_WORKERS` x `CRAWL_THREADS`.
 - 3x200: Out of memory errors
 - 2x200: Out of memory errors
 - 1x320: Stable
+- 1x640: stable
+- 1x1000: testing
