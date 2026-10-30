@@ -13,7 +13,7 @@ services:
       - MWMBL_API_KEY=${MWMBL_API_KEY}
       - MWMBL_CONTACT_INFO=${MWMBL_CONTACT_INFO}
       - CRAWLER_WORKERS=1
-      - CRAWL_THREADS=160
+      - CRAWL_THREADS=320
       - CRAWL_DELAY_SECONDS=0.1
       - REDIS_URL=redis://redis:6379
     volumes:
