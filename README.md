@@ -19,4 +19,11 @@ In the format `CRAWLER_WORKERS` x `CRAWL_THREADS`.
 - 1x40: Stable
 - 1x80: Stable
 - 1x160: Stable
-- 1x320: ...
+- 1x320: (Didn't test yet)
+
+## With the PR Fix
+
+- 4x100: Out of memory error
+- 4x10: Out of memory error
+- 3x10: Stable
+- 3x300: ...
