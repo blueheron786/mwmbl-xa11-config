@@ -18,22 +18,8 @@ The table below is in the format `CRAWLER_WORKERS` x `CRAWL_THREADS`. Out of mem
 
 Tested on Ubuntu 26.04. Debian may provide a more minimal OS with a bit more RAM.
 
-## After RAM sharing PR
+## Latest changes
 
-- 4x100: Out of memory errors
-- 4x10: Out of memory errors
-- 3x10: Stable
-- 3x300: Out of memory errors
-- 3x200: Out of memory errors
-- 2x200: Out of memory errors
-- 1x320: Stable
-- 1x640: Stable
-- 1x1000: Stable
-- 1x2000: Stable
-- 2x10: Out of memory errors
-- 1x10k: Runtime error, can't start new thread
-- 1x5000: Runtime error, can't start new thread
-- 1x3000: Runtime error, can't start new thread
-- 1x1000: Runs, didn't check stability
-- 1x2000: Stable
-- 1x2500: Stable
+- 4x10: stable
+- 5x25: OOM
+- 5x10: stable
